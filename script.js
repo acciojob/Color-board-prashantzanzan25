@@ -1,8 +1,7 @@
-//your JS code here. If required.
-const container = document.getElementById('colorBoard');
+const board = document.getElementById('board');
 
-  for (let i = 0; i < 300; i++) {
-    const square = document.createElement('div');
-    square.classList.add('square');
-    container.appendChild(square);
-  }
+for (let i = 0; i < 800; i++) {
+  const square = document.createElement('div');
+  square.classList.add('square');
+  board.appendChild(square);
+}
